@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
-from keras.preprocessing.sequence import pad_sequences
-from keras.preprocessing.image import img_to_array, load_img
-from keras.applications.vgg16 import preprocess_input, VGG16
-from keras.models import load_model, Model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.image import img_to_array, load_img
+from tensorflow.keras.applications.vgg16 import preprocess_input, VGG16
+from tensorflow.keras.models import load_model, Model
 import pickle
 
 # Display the title of the application centered on the page
