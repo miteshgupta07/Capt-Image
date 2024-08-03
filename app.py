@@ -16,13 +16,13 @@ st.markdown(
 image = st.file_uploader('Upload Image', ['jpg', 'jpeg', 'png', 'webp', 'svg'])
 
 # Load pre-trained VGG16 model for feature extraction
-vgg_model = load_model("C:\\Users\\Mitesh Gupta\\Downloads\\vgg_model.keras")
+vgg_model = load_model("./vgg_model.keras")
 
 # Load the trained image captioning model
-model = load_model("C:\\Users\\Mitesh Gupta\\Downloads\\temp_model.keras")
+model = load_model("./model.keras")
 
 # Load the tokenizer used during training
-with open('C:\\Users\\Mitesh Gupta\\Downloads\\Tokenizer.pkl', 'rb') as f:
+with open('./Tokenizer.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
 
 def preprocess_image(image):
