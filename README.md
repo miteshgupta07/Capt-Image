@@ -42,6 +42,9 @@
 
 • **Extracted_Feature.pkl:** Extracted Feature File.
 
+## Dataset 📚
+The dataset used for training the models is the **Flickr8k** dataset, which includes a collection of images with corresponding captions. The dataset is publicly available and can be accessed [here](https://www.kaggle.com/datasets/adityajn105/flickr8k).
+
 ## Model Details 🔍
 
 • **Feature Extraction Model:** VGG16
