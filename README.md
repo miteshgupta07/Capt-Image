@@ -31,21 +31,28 @@
 2. **Upload an image and view the generated caption.**
 
 ## Files 📁
+
 • **app.py:** Main Streamlit application file.
+
 • **vgg_model.keras:** Pre-trained VGG16 model used for feature extraction.
+
 • **model.keras:** LSTM model used for caption generation.
+
 • **Tokenizer.pkl:** Tokenizer object for text processing.
+
 • **Extracted_Feature.pkl:** Extracted Feature File.
 
 ## Model Details 🔍
+
 • **Feature Extraction Model:** VGG16
+
 • **Caption Generation Model:** LSTM with dense layers
 
 ## Contribution 🤝
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
 
 ## License 📝
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/miteshgupta07/Capt-Image/blob/main/LICENSE) file for details.
 
 ## Contact 📧
 For any questions or feedback, feel free to reach out at miteshgupta2711@gmail.com.
